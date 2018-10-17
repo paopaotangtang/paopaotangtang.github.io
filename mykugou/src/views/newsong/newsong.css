@@ -1,0 +1,9 @@
+.am-list-item .am-list-line .am-list-extra{
+    flex-basis: 10%
+}
+.am-list-item .am-list-line .am-list-content{
+    white-space:normal;
+}
+.am-list-line{
+    height: .74rem;
+}

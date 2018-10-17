@@ -1,0 +1,222 @@
+.newsong .am-list-item .am-list-line .am-list-extra{
+    flex-basis: 10%
+}
+.newsong .am-list-item .am-list-line .am-list-content{
+    white-space:normal;
+}
+.newsong .am-list-line{
+    height: .74rem;
+}
+
+
+
+.rank .am-list-item img{
+    width: .97rem;
+    height: .97rem;
+  }
+.rank .am-list-item .am-list-thumb{
+    padding: .13rem 0;
+}
+.rank .am-list-line{
+    height: 1.2rem;
+}
+
+.plist .am-list-item img{
+    width: .97rem;
+    height: .97rem;
+  }
+  .plist  .am-list-item .am-list-thumb{
+      padding: .13rem 0;
+  }
+
+
+  .singer .my-list{
+        margin: .25rem 0;
+  }
+  .back .am-navbar-light{
+      color: #fff !important;
+      background: -webkit-linear-gradient(top,rgba(0,0,0,.6),rgba(0,0,0,0));
+  }
+
+  .singerdetail .am-list-item img{
+    width: .62rem;
+    height: .62rem;
+  }
+.singerdetail .am-list-item .am-list-thumb{
+    padding: .13rem 0;
+}
+.singerdetail .am-list-line{
+    height: .87rem;
+}
+.thesinger .imgbox{
+    width: 100vw;
+    height: 2.3rem;
+    overflow: hidden;
+}
+.thesinger .imgbox img{
+    width: 100%;
+    margin-top: -75px;
+}
+.thesinger .am-accordion-content-box{
+    font-size:17px !important;
+    line-height: 44px;
+}
+.thesinger .am-list-item .am-list-line .am-list-extra{
+    flex-basis: 10%
+}
+.thesinger .am-list-item .am-list-line .am-list-content{
+    white-space:normal;
+}
+.therank .imgbox{
+    width: 100vw;
+    height: 2.3rem;
+    overflow: hidden;
+}
+.therank .imgbox img{
+    width: 100%;
+    margin-top: -75px;
+}
+.therank .update{
+    margin-top: -0.45rem;
+    font-size: 16px;
+    line-height: .45rem;
+    height: .45rem;
+    text-indent: 10px;
+    color: #fff;    
+    background: -webkit-linear-gradient(bottom,rgba(0,0,0,.6),rgba(0,0,0,0));
+
+}
+.therank .index{
+    padding: 0 10px;
+}
+
+.fixedaudio{
+    display: none;
+    transition: 1s;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+
+}
+.fixedaudio audio{
+    width: 0;
+    height: 0;
+}
+.fixedaudio .myaudio{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 1rem;
+    background:linear-gradient(rgb(105, 204, 243,0.8),hsl(278, 93%, 62%,0.8)) ;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+}
+.fixedaudio .myaudio i{
+    font-size: .3rem;
+    line-height: 1rem;
+    margin-right: .1rem;
+}
+.fixedaudio .myaudio img{
+    width: .7rem;
+    height: .7rem;
+    background: #fff;
+    margin: .15rem;
+}
+.fixedaudio .myaudio .info{
+    width: 1.5rem;
+    height: 1rem;
+}
+.fixedaudio .myaudio .sname{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: .3rem;
+    height: .26rem;
+    line-height: .26rem;
+}
+.fixedaudio .myaudio .sinname{
+    color: #dddddd;
+    font-size: .14rem;
+    height: .16rem;
+    line-height: .16rem;
+}
+.krc{
+    width: 100vw;
+    height: 100%;
+    text-align: center;
+}
+.krc .mask{
+    position: fixed;
+    top:0;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#000; 
+    background-size: cover;
+    filter: blur(2px);
+}
+.krc .clearmask{
+    top:0;
+    position: fixed;
+    background-color:rgba(0,0,0,0.3); 
+    width: 100vw;
+    height: 100%;
+    z-index: 11;
+}
+.krc .am-navbar.am-navbar-dark{
+    background: #000;
+    color:#fff;
+}
+.krc img{
+    width: 2rem;
+    height: 2rem;
+    margin-top:.3rem;
+}
+.krc .krccon{
+    width: 100vw;
+    height: 1rem;
+    text-align: center;
+    color:yellow
+}
+.krc .todo{
+    width: 100vw;
+    height: .6rem;
+    
+}
+.krc .todo .playi{
+    display: inline;
+}
+.krc .todo i{
+    padding: .1rem;
+    font-size: .4rem;
+    color: #fff
+}
+.krc .download{
+    width: 2rem;
+    height: .5rem;
+    line-height: .5rem;
+    text-align: center;
+    color: #fff;
+    padding: 0;
+    margin: .1rem auto;
+}
+.krc .download i{
+    font-size: .3rem;
+    margin-right: .1rem;
+    vertical-align: middle;
+}
+.am-wingblank.am-wingblank-lg span{
+    color:#fff ;
+    margin-top: -0.1rem;
+    font-size: .14rem;
+}
+.search .am-button span{
+    color: #000;
+}
+
+.am-accordion .am-accordion-item .am-accordion-content{
+    padding: 0 0.1rem;
+}

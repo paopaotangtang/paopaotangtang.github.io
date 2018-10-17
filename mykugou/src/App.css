@@ -1,0 +1,22 @@
+html {
+    font-size: 26.6666vw;
+  }
+ul {
+padding: 0;
+margin: 0;
+list-style: none;
+}
+.fl {
+float: left;
+}
+.fr {
+float: right;
+}
+.clear:after {
+content: "";
+display: block;
+clear: both;
+}
+body {
+margin: 0;
+}
